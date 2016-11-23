@@ -8,6 +8,10 @@ _Documentation is still being fleshed out!_
 
 To start using the kits, just download it! Make sure the base fonts are installed, or Sketch will have an conniption.
 
+*Before you begin, you should have…*
+- The _latest version_ of [Sketch](https://www.sketchapp.com/)
+- [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed. Both are included in the kit repo.
+
 ## Using the Kit
 
 ### Setting Up Presets
