@@ -63,29 +63,25 @@ We've put a lot of effort into carefully categorizing and organizing the Sketch 
 
 When using and contributing to the UI Kits, please keep these tenets in mind.
 
-## Making Changes
+## Making Changes and Pull Requests
 
 All changes to the UI Kits should be made on their respective branches, and merged into `master` via a pull request. However, since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work. 
 
 Before you start editing files, take a moment to look around and assess the situation.
 
-1. Check if there's pending pull requests for the file.
-    1. If there is, please help review and approve the pull request. 
+1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work. 
+    1. If there is, please help review and merge the pull request.
     2. If not, you can begin work.
-2. Work from the correct branch.
-3. Create a pull request.
-
-1. **Is there already a pull request open for this file branch?** If there is, you can't edit the file until the request and change has been approved and merged into master. Is there anything you can do to help? If you can help review and approve the pull request, then you can start work faster!
-
-2. If there's no pending pull requests, then you can go straight to work! Please **work from the correct branch.** We can't have a bunch of separate branches because they won't merge properly, so we try to maintain a changes branch per file to prevent this. Example: `ui-base-changes` and `ui-tablet-changes`
-
-### Before you create a pull request
-
-- Are all layers appropriately named?
-- Is the symbol flexible? Can it be resized without breaking?
-- Is the symbol appropriately named and filed?
-- Is the symbol neatly integrated into the Symbol page?
+2. **Work from the correct branch.** All changes to the UI Kits should be made on their respective branches. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per file to prevent this. Example: `ui-base-changes` and `ui-tablet-changes`
+3. **Double check your work.** This will need be reviewed in the pull request anyway, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
+    - Is the symbol appropriately named and filed?
+    - Are all layers appropriately named?
+    - Is the symbol flexible? Can it be resized without breaking?
+    - Is the symbol neatly integrated into the Symbol page?
+If so, then you can pull away!
+3. **Create your pull request.**
+4. **Merge your pull request.**
 
 ### Requesting a New Component
 
-Did you see something missing from the kit that we just _need_ to have? Create an [issue](/issues) in the parent GitHub repo.
+Did you see something missing from the kit that we just _need_ to have? If you're not comfortable adding it to the Sketch file yourself, create an [issue](/issues) in the parent GitHub repo.
