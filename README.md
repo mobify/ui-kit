@@ -47,28 +47,45 @@ The UI Kit should be quick to open and easy to get started with; it should not b
 - Split the kit into multiple files, allowing smaller file sizes.
 - Include Preset steps, making it easier to customize your project.
 
-### Flexible
-Sketch has added some great new features that allow symbols to be more flexible. This helps us in reducing the number of symbols we need, as well as allowing us to design for multiple screen sizes with greater ease.
+### Flexiblity and Multi-Use
+Making sure that the component symbols we do create can be resized and stretched helps us reduce the number of symbols we need (keeping things speedy!) as well as allowing us to design for multiple screen sizes with greater ease.
 
 **That's why we…**
 - Pet kitties!
 
-### Organized
-What's the point of using a UI Kit to speed up your design when you spend half your time searching for the right symbol? We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use.
+### Organization
+We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up your design when you spend half your time searching for the right symbol?
+
+`[category]`
+`--modifier`
+`:state`
+`~variant`
 
 When using and contributing to the UI Kits, please keep these tenets in mind.
 
-### Requesting a New Component
+## Making Changes
 
-Did you see something missing from the kit that we just _need_ to have? Create an [issue](/issues) in the parent GitHub repo.
+All changes to the UI Kits should be made on their respective branches, and merged into `master` via a pull request. However, since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work. 
 
-### Pull Requests
+Before you start editing files, take a moment to look around and assess the situation.
 
-Before you create a pull request
+1. Check if there's pending pull requests for the file.
+    1. If there is, please help review and approve the pull request. 
+    2. If not, you can begin work.
+2. Work from the correct branch.
+3. Create a pull request.
+
+1. **Is there already a pull request open for this file branch?** If there is, you can't edit the file until the request and change has been approved and merged into master. Is there anything you can do to help? If you can help review and approve the pull request, then you can start work faster!
+
+2. If there's no pending pull requests, then you can go straight to work! Please **work from the correct branch.** We can't have a bunch of separate branches because they won't merge properly, so we try to maintain a changes branch per file to prevent this. Example: `ui-base-changes` and `ui-tablet-changes`
+
+### Before you create a pull request
 
 - Are all layers appropriately named?
 - Is the symbol flexible? Can it be resized without breaking?
 - Is the symbol appropriately named and filed?
 - Is the symbol neatly integrated into the Symbol page?
 
-### Adding New Kits
+### Requesting a New Component
+
+Did you see something missing from the kit that we just _need_ to have? Create an [issue](/issues) in the parent GitHub repo.
