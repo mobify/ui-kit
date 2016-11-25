@@ -10,7 +10,7 @@ _Coming soon._
 
 **Before you begin, you should have…**
 - The _latest version_ of [Sketch](https://www.sketchapp.com/).
-- [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) fonts installed (both are included in the kit repo).
+- The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed (both are included in the kit repo).
 
 To start using the kits, just download one... or all of them! But before you open them, make sure the base fonts are installed or Sketch will have an conniption.
 
@@ -20,11 +20,11 @@ Once you open the kit, the first thing you'll want to do is take a look at the *
 
 ## Using Symbols Within the Kit
 
-The symbols included in the UI Kits are named in line with their code counterparts. This is intended to be a reference for the developers who will inherit the designs; by maintaining this naming scheme, the developers will know which components you've used and what they need to include in their build.
+The symbols included in the UI Kits are **named to be inline with their code counterparts**. This is intended to be a reference for the developers who will inherit the designs; by maintaining this naming scheme, the developers will know which components you've used and what they need to include in their build.
 
-As such, _we do not recommend renaming the of symbols_, either on the Symbol page or in individual instances of the symbols, as that would remove the reference point. 
+As such, _we do not recommend renaming the of symbols_, either on the Symbol page or in individual instances, as that would remove the reference point. 
 
-If you want to organize the symbols used in your design, please do so with Groups.
+If you want to organize the symbols used in your design, we suggest doing so by wrapping them in groups and renaming those.
 
 ### Sharing with Developers
 
