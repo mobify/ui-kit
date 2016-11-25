@@ -1,6 +1,6 @@
 # Progressive Mobile UI Kits
 
-The **Progressive Mobile UI Kits** are collections of components that are part of Mobify's suite of technologies, allowing designers to quickly and efficiently create designs for their projects. The kits also maintain parity with the code components so building the designs created with the kits is easier for developers too.
+The **Progressive Mobile UI Kits** are collections of components that are part of Mobify's suite of technologies, allowing designers to quickly and efficiently create designs for their projects. The kits also maintain parity with the code components, so building designs based on the kits is easier for developers too.
 
 ## Table of Contents
 
