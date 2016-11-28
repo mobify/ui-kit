@@ -6,10 +6,10 @@ The **Progressive Mobile UI Kits** are design collections of components used in 
 
 1. [Getting Started](#getting-started)
 2. [Using the Kit](#using-the-kit)
-    a. [Using Symbols Within the Kit](#using-symbols-within-the-kit)
-    b. [Sharing with Developers](#sharing-with-developers)
+    1. [Using Symbols Within the Kit](#using-symbols-within-the-kit)
+    2. [Sharing with Developers](#sharing-with-developers)
 3. [Contributing to the Kit](#contributing-to-the-kit)
-    a. [Making Changes and Pull Requests](#making-changes-and-pull-requests)
+    1. [Making Changes and Pull Requests](#making-changes-and-pull-requests)
 4. [Requesting a New Component](#requesting-a-new-component)
 
 
