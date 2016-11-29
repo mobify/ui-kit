@@ -24,10 +24,10 @@ To start using the kits, just download one... or all of them! But before you ope
 
 Each kit contains the following pages:
 
-- **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including adjusting the framing, margin, and padding styles.
-- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will give you a great headstart in customizing the components to match your client's brand.
+- **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including toggling the framing, margin, and padding styles.
+- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will  give you a great headstart in customizing the components to match your client's brand.
 - **Symbol Page:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
-- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements that utilize many of our best practices, but you should make the effort to customize your designs to your client—and their customer's—needs.
+- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements that reflect our best practices, but you should make the effort to customize your designs to your client—and their customer's—needs.
 
 Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages.
 
@@ -50,9 +50,9 @@ As mentioned above, the symbols are named to be inline with the code components.
     - `[product]` - all symbols that are specific to products, or product options.
     - `[templates]` - sub-templates saved as symbols for convience.
     - `[type]` - basic type elements as symbols to preserve the spacing system.
-- `--modifier` - Modifiers reflect our CSS naming convention 
+- `--modifier` - Modifiers relfect our CSS naming convention for modified versions of a component, such as `--horizontal` for a horizontal layout or `--small` for a smaller version.
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
-- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about a specific option. Example: `~right` or `~left`
+- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
 
 ### Sharing with Developers
 
@@ -87,7 +87,7 @@ Before you start editing files, take a moment to look around and assess the curr
     - Are all layers appropriately named and organized?
     - Is the symbol flexible? Can it be resized without breaking?
     - Is the symbol neatly integrated into the Symbol page?
-      If it all looks good, then you can pull away!
+If it all looks good, then you can pull away!
 4. **Create your pull request.** In your pull request you need to make it clear what has changed and which file you've altered.
     - Your title should follow this format: `[FILE] Summary`
         - Example: _[BASE] Reduced the number of form symbols_
