@@ -24,10 +24,10 @@ To start using the kits, just download one... or all of them! But before you ope
 
 Each kit contains the following pages:
 
-- **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including turning the framing, margin, and padding styles.
-- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will  give you a great headstart in customizing the components to match your client's brand.
+- **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including adjusting the framing, margin, and padding styles.
+- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will give you a great headstart in customizing the components to match your client's brand.
 - **Symbol Page:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
-- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements, but you should make the effort to customize your designs to your client—and their customer's—needs.
+- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements that utilize many of our best practices, but you should make the effort to customize your designs to your client—and their customer's—needs.
 
 Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages.
 
@@ -50,7 +50,7 @@ As mentioned above, the symbols are named to be inline with the code components.
     - `[product]` - all symbols that are specific to products, or product options.
     - `[templates]` - sub-templates saved as symbols for convience.
     - `[type]` - basic type elements as symbols to preserve the spacing system.
-- `--modifier` - Modifiers relfect our CSS naming convention of 
+- `--modifier` - Modifiers reflect our CSS naming convention 
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
 - `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about a specific option. Example: `~right` or `~left`
 
@@ -69,7 +69,7 @@ If Sketch is unavailable to your development team, we suggest using another tool
 The UI Kit is built on the following tenents:
 
 - **Fast and Reliable:** The UI Kit should be fast. It should not become so large and unwiedly that Sketch crashes or the file does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
-- **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include Preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as is currently possible.
+- **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as is currently possible.
 - **Organized:** We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up your design when you spend half your time searching for the right symbol?
 
 When using and contributing to the UI Kits, please keep these tenets in mind.
@@ -87,15 +87,15 @@ Before you start editing files, take a moment to look around and assess the curr
     - Are all layers appropriately named and organized?
     - Is the symbol flexible? Can it be resized without breaking?
     - Is the symbol neatly integrated into the Symbol page?
-If it all looks good, then you can pull away!
-3. **Create your pull request.** In your pull request you need to make it clear what has changed and which file you've altered.
+      If it all looks good, then you can pull away!
+4. **Create your pull request.** In your pull request you need to make it clear what has changed and which file you've altered.
     - Your title should follow this format: `[FILE] Summary`
         - Example: _[BASE] Reduced the number of form symbols_
         - Example: _[APP] Added a new dialog type_
     - The body of the PR should contain a more detailed summary of the changes made, and where your reviewer may be able to find them. Include any symbol names!
     - Include approval checks for a fellow designer to review your changes.
-4. **Wait for the pull request to get reviewed.** Ping or poke your fellow designers to take a look at your pull request.
-5. **Merge your pull request.** Whoo-hoo! You did it! Now you can sit back and admire your work (but don't delete the branch).
+5. **Wait for the pull request to get reviewed.** Ping or poke your fellow designers to take a look at your pull request.
+6. **Merge your pull request.** Whoo-hoo! You did it! Now you can sit back and admire your work (but don't delete the branch).
 
 ## Requesting a New Component
 
