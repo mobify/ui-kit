@@ -50,9 +50,9 @@ As mentioned above, the symbols are named to be inline with the code components.
     - `[product]` - all symbols that are specific to products, or product options.
     - `[templates]` - sub-templates saved as symbols for convience.
     - `[type]` - basic type elements as symbols to preserve the spacing system.
-- `--modifier` - Modifiers relfect our CSS naming convention of 
+- `--modifier` - Modifiers relfect our CSS naming convention of naming modified versions of a component, like `--horizontal` or `--small`.
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
-- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about a specific option. Example: `~right` or `~left`
+- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
 
 ### Sharing with Developers
 
