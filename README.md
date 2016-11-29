@@ -1,6 +1,6 @@
 # Progressive Mobile UI Kits
 
-The **Progressive Mobile UI Kits** are design collections of components used in Mobify's products, allowing designers to quickly and efficiently create mockups for their projects. The kits also maintain parity with the code components, so building designs based on the kits is easier for developers too.
+The **Progressive Mobile UI Kits** are Sketch files containing defaults of all the components used in Mobify's products. Using the kits allows designers to quickly and efficiently create mockups for their projects, and helps developers leverage the SDK for their builds, as the kits maintain parity with the code components.
 
 ## Table of Contents
 
@@ -12,30 +12,38 @@ The **Progressive Mobile UI Kits** are design collections of components used in 
     1. [Making Changes and Pull Requests](#making-changes-and-pull-requests)
 4. [Requesting a New Component](#requesting-a-new-component)
 
-
 ## Getting Started
 
 **Before you begin, you should have…**
-- The latest version of [Sketch](https://www.sketchapp.com/).
+- The latest version of [Sketch](https://www.sketchapp.com/), and a working knowledge.
 - The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed.
 
 To start using the kits, just download one... or all of them! But before you open them, make sure the base fonts are installed or Sketch will have an conniption.
 
 ## Using the Kit
 
-Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages. The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will  give you a great headstart in customizing the components to match your client's brand.
+Each kit contains the following pages:
+
+- **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including turning the framing, margin, and padding styles.
+- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will  give you a great headstart in customizing the components to match your client's brand.
+- **Symbol Page:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
+- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements, but you should make the effort to customize your designs to your client—and their customer's—needs.
+
+Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages.
 
 ### Using Symbols Within the Kit
 
-The symbols included in the UI Kits are **named to be inline with their code counterparts**. This is intended to be a reference for the developers who will inherit the designs; by maintaining this naming scheme, the developers will know which components you've used and what they need to include in their build.
+The symbols included in the UI Kits are **named to be inline with their code counterparts**. This is intended to be a guide for the developers who will inherit the designs; by maintaining this naming scheme, the developers will have a reference of which components you've used and therefore which ones they need to include in the build.
 
 As such, _we do not recommend renaming the of symbols_, either on the Symbol page or in individual instances, as that would remove the reference point. If you want to organize the symbols used in your design, we suggest doing so by wrapping them in groups and renaming those.
+
+#### Symbol Naming
 
 ### Sharing with Developers
 
 Eventually you will need to pass them onto your developers. They may not have access to Sketch, and while you _could_ pass along flats, you'll be losing one of the benefits of using the UI Kit: the reference to its code counterparts.
 
-If Sketch is unavailable to your development team, we suggest using another tool to pass the designs along.
+If Sketch is unavailable to your development team, we suggest using another tool to pass the designs along. These tools allow developers to reference layer and symbol names without Sketch itself.
 
 **We recommend:**
 - [InVision Inspect](https://support.invisionapp.com/hc/en-us/articles/207950906-Introduction-to-Inspect)
@@ -45,8 +53,8 @@ If Sketch is unavailable to your development team, we suggest using another tool
 
 The UI Kit is built on the following tenents:
 
-- **Fast and Reliable:** The UI Kit should be fast. It should not become so large and unwiedly that Sketch crashes or the file does not sync with our tools. This why we split the kit into multiple Sketch files, allowing them to be smaller and stabler.
-- **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include Preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as they can be.
+- **Fast and Reliable:** The UI Kit should be fast. It should not become so large and unwiedly that Sketch crashes or the file does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
+- **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include Preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as is currently possible.
 - **Organized:** We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up your design when you spend half your time searching for the right symbol?
 
 When using and contributing to the UI Kits, please keep these tenets in mind.
@@ -59,7 +67,7 @@ Before you start editing files, take a moment to look around and assess the curr
     1. If there is, please help review and merge the pull request.
     2. If not, you can begin work.
 2. **Work from the correct branch.** All changes to the UI Kits should be made on their respective branches. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per file to prevent this. Example: `ui-base-changes` and `ui-app-changes`
-3. **Double check your work.** Do your changes follow the tenets of the UI Kit? This will be reviewed in the pull request anyway, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
+3. **Double check your work.** Do your changes follow the tenets of the UI Kit? This will be reviewed by your fellow designs when you create your pull request, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
     - Are the symbols appropriately named and filed?
     - Are all layers appropriately named and organized?
     - Is the symbol flexible? Can it be resized without breaking?
@@ -67,12 +75,12 @@ Before you start editing files, take a moment to look around and assess the curr
 If it all looks good, then you can pull away!
 3. **Create your pull request.** In your pull request you need to make it clear what has changed and which file you've altered.
     - Your title should follow this format: `[FILE] Summary`
-        - Example: [BASE] Reduced the number of form symbols
-        - Example: [APP] Added a new dialog type
+        - Example: _[BASE] Reduced the number of form symbols_
+        - Example: _[APP] Added a new dialog type_
     - The body of the PR should contain a more detailed summary of the changes made, and where your reviewer may be able to find them. Include any symbol names!
     - Include approval checks for a fellow designer to review your changes.
 4. **Wait for the pull request to get reviewed.** Ping or poke your fellow designers to take a look at your pull request.
-5. **Merge your pull request.** Whoo-hoo! You did it! Now you can sit back and admire your work. Just don't delete the branch.
+5. **Merge your pull request.** Whoo-hoo! You did it! Now you can sit back and admire your work (but don't delete the branch).
 
 ## Requesting a New Component
 
