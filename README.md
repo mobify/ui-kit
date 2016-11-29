@@ -39,6 +39,21 @@ As such, _we do not recommend renaming the of symbols_, either on the Symbol pag
 
 #### Symbol Naming
 
+As mentioned above, the symbols are named to be inline with the code components. However, there's more to that. There are states, variants, and modifiers you need to be aware of.
+
+- `[category]` - To make it easier to find symbols by organizing them by purpose or use.
+    - `[action]` - calls to action (buttons)
+    - `[form]` - all forms of form elements and inputs
+    - `[general]` - general use components that could appear anywhere in the site
+    - `[global]` - global symbols are major components that the entire site hinges on (navigation, header, etc.)
+    - `[icon]` - all the icons an their variations
+    - `[product]` - all symbols that are specific to products, or product options.
+    - `[templates]` - sub-templates saved as symbols for convience.
+    - `[type]` - basic type elements as symbols to preserve the spacing system.
+- `--modifier` - Modifiers relfect our CSS naming convention of 
+- `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
+- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about a specific option. Example: `~right` or `~left`
+
 ### Sharing with Developers
 
 Eventually you will need to pass them onto your developers. They may not have access to Sketch, and while you _could_ pass along flats, you'll be losing one of the benefits of using the UI Kit: the reference to its code counterparts.
