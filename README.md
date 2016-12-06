@@ -7,6 +7,7 @@ The **Progressive Mobile UI Kits** are Sketch files containing defaults of all t
 1. [Getting Started](#getting-started)
 2. [Using the Kit](#using-the-kit)
     1. [Using Symbols Within the Kit](#using-symbols-within-the-kit)
+    2. [Customizing Components](#customizing-components)
     2. [Sharing with Developers](#sharing-with-developers)
 3. [Contributing to the Kit](#contributing-to-the-kit)
     1. [Making Changes and Pull Requests](#making-changes-and-pull-requests)
@@ -54,11 +55,11 @@ As mentioned above, the symbols are named to be inline with the code components.
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
 - `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
 
-### Customizing Symbols
+### Customizing Components
 
-Customizing the components can be as simple as changing colours and icons — something that will filter through from your established design system — or as complex as rearranging the component’s internal elements or creating alternate views or variants. These are simply visual customizations that can be done with little impact to your development timeline. 
+Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes simple, purely visual customizations that can be done with little impact to your development timeline. 
 
-Though the default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements to the components.
+Though the default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements in the component.
 
 While you certainly can do this, you must be wary of the additional cost of developing these customizations. Before deciding on any custom components, first review your designs with your development team to ensure it’s feasible and will not threaten your project timelines.
 
