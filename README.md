@@ -26,8 +26,8 @@ To start using the kits, just download one... or all of them! But before you ope
 Each kit contains the following pages:
 
 - **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including toggling the framing, margin, and padding styles.
-- **Setup Steps:** The Setup pages contain all the type and layer styles through out the kit; changing them here will populate the changes through all the components, and will  give you a great headstart in customizing the components to match your client's brand.
-- **Symbol Page:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
+- **Setup:** The Setup pages contain all the type and layer styles used through out the kit; changing them here will populate the changes through all the components, and will give you a great headstart in customizing the components to match your client's brand.
+- **Symbols:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
 - **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements that reflect our best practices, but you should make the effort to customize your designs to your client—and their customer's—needs.
 
 Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages.
@@ -40,26 +40,26 @@ As such, _we do not recommend renaming the of symbols_, either on the Symbol pag
 
 #### Symbol Naming
 
-As mentioned above, the symbols are named to be inline with the code components. However, there's more to that. There are states, variants, and modifiers you need to be aware of.
+As mentioned above, the symbols are named to be inline with the code components. However, there's more to it: individual components have states, variants, and modifiers you need to be aware of.
 
-- `[category]` - To make it easier to find symbols by organizing them by purpose or use.
-    - `[action]` - calls to action (buttons)
+- `[category]` - Organizing symbols by purpose makes it easier to find them.
+    - `[action]` - calls to action
     - `[form]` - all forms of form elements and inputs
-    - `[general]` - general use components that could appear anywhere in the site
-    - `[global]` - global symbols are major components that the entire site hinges on (navigation, header, etc.)
-    - `[icon]` - all the icons an their variations
+    - `[general]` - general use components that could be used anywhere
+    - `[global]` - global symbols are major components that the entire site hinges on (navigation, search, etc.)
+    - `[icon]` - all the icons and their variations
     - `[product]` - all symbols that are specific to products, or product options.
-    - `[templates]` - sub-templates saved as symbols for convience.
+    - `[templates]` - sub-templates saved as symbols for convenience.
     - `[type]` - basic type elements as symbols to preserve the spacing system.
-- `--modifier` - Modifiers relfect our CSS naming convention for modified versions of a component, such as `--horizontal` for a horizontal layout or `--small` for a smaller version.
+- `--modifier` - Modifiers relfect our CSS naming convention for different versions of a component, such as `--horizontal` for a horizontal layout or `--small` for a smaller size.
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
-- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the code. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
+- `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the CSS. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
 
 ### Customizing Components
 
-Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes simple, purely visual customizations that can be done with little impact to your development timeline. 
+Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes are purely visual customizations that can be done with little impact to your development timeline. 
 
-Though the default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements in the component.
+The default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements in the component.
 
 While you certainly can do this, you must be wary of the additional cost of developing these customizations. Before deciding on any custom components, first review your designs with your development team to ensure it’s feasible and will not threaten your project timelines.
 
@@ -72,14 +72,15 @@ If Sketch is unavailable to your development team, we suggest using another tool
 **We recommend:**
 - [InVision Inspect](https://support.invisionapp.com/hc/en-us/articles/207950906-Introduction-to-Inspect)
 - [Zeplin](https://zeplin.io/)
+- [Sketch Measure](http://utom.design/measure/)
 
 ## Contributing to the Kit
 
 The UI Kit is built on the following tenents:
 
-- **Fast and Reliable:** The UI Kit should be fast. It should not become so large and unwiedly that Sketch crashes or the file does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
+- **Fast and Reliable:** The UI Kit should be fast. The files should not become so large and unwieldly that Sketch crashes or does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
 - **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as is currently possible.
-- **Organized:** We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up your design when you spend half your time searching for the right symbol?
+- **Organized:** We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up design when you spend half your time searching for the right symbol?
 
 When using and contributing to the UI Kits, please keep these tenets in mind.
 
@@ -88,7 +89,7 @@ When using and contributing to the UI Kits, please keep these tenets in mind.
 Before you start editing files, take a moment to look around and assess the current situation.
 
 1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work. 
-    1. If there is, please help review and merge the pull request.
+    1. If there is, please help review the pull request so it can be merged.
     2. If not, you can begin work.
 2. **Work from the correct branch.** All changes to the UI Kits should be made on their respective branches. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per file to prevent this. Example: `ui-base-changes` and `ui-app-changes`
 3. **Double check your work.** Do your changes follow the tenets of the UI Kit? This will be reviewed by your fellow designs when you create your pull request, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
@@ -103,7 +104,7 @@ If it all looks good, then you can pull away!
         - Example: _[APP] Added a new dialog type_
     - The body of the PR should contain a more detailed summary of the changes made, and where your reviewer may be able to find them. Include any symbol names!
     - Include approval checks for a fellow designer to review your changes.
-5. **Wait for the pull request to get reviewed.** Ping or poke your fellow designers to take a look at your pull request.
+5. **Wait for the pull request to get reviewed.** Ping or poke your fellow designers to take a look at your pull request so it can be merged ASAP.
 6. **Merge your pull request.** Whoo-hoo! You did it! Now you can sit back and admire your work (but don't delete the branch).
 
 ## Requesting a New Component
