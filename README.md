@@ -19,7 +19,11 @@ The **Progressive Mobile UI Kits** are Sketch files containing defaults of all t
 - The latest version of [Sketch](https://www.sketchapp.com/), and a working knowledge.
 - The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed.
 
-To start using the kits, just download one... or all of them! But before you open them, make sure the base fonts are installed or Sketch will have an conniption.
+**To start using the kits:** 
+1. Download whichever one you need... or all of them!
+2. Move the file(s) to your own project folder and rename it. 
+3. Open the file, and begin customizing the presets and symbols to suit your design.
+    1. But _before_ you open the file, make sure the base fonts are installed or Sketch will have an conniption.
 
 ## Using the Kit
 
