@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>[icon]/chevron/bottom/dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icon]/chevron/bottom/dark" fill="#0288A7">
+            <path d="M5.09207939,0.0925411975 L2.76004122,2.42457938 C2.63048354,2.55413705 2.63048354,2.77623593 2.76004122,2.9057936 L7.84980708,7.99555947 L2.76004122,13.0853253 C2.63048354,13.214883 2.63048354,13.4369819 2.76004122,13.5665396 L5.09207939,15.8985777 C5.22163707,16.0281354 5.44373595,16.0281354 5.57329362,15.8985777 L13.2357048,8.23616658 C13.3652625,8.1066089 13.3652625,7.88451003 13.2357048,7.75495235 L10.4564873,4.97573488 C8.82875608,3.34800365 5.57329362,0.0925411975 5.57329362,0.0925411975 C5.49926066,0.037016479 5.42522771,0 5.33268651,0 C5.24014531,0 5.16611235,0.037016479 5.09207939,0.0925411975 Z" id="svg" transform="translate(7.997873, 7.997873) scale(-1, 1) rotate(90.000000) translate(-7.997873, -7.997873) "></path>
+        </g>
+    </g>
+</svg>
