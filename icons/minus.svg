@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>[icon]/minus/dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icon]/minus/dark" fill="#0288A7">
+            <path d="M0,9.43223 L0,6.56777 C0,6.25419929 0.251321793,6 0.588423967,6 L15.411576,6 C15.7365536,6 16,6.24523926 16,6.56777 L16,9.43223 C16,9.74580071 15.7486782,10 15.411576,10 L0.588423967,10 C0.263446384,10 0,9.75476074 0,9.43223 Z" id="svg"></path>
+        </g>
+    </g>
+</svg>

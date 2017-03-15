@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>[icon]/info/dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icon]/info/dark" fill="#0288A7">
+            <path d="M8,-8.39233398e-05 C3.57407407,-8.39233398e-05 0,3.57399015 0,7.99991608 C0,12.425842 3.57407407,15.9999161 8,15.9999161 C12.4259259,15.9999161 16,12.425842 16,7.99991608 C16,3.57399015 12.4259259,-8.39233398e-05 8,-8.39233398e-05 L8,-8.39233398e-05 Z M9,12.9999161 L7,12.9999161 L7,7.33324941 L9,7.33324941 L9,12.9999161 Z M8,5.66658274 C7.25925926,5.66658274 6.66666667,5.07399015 6.66666667,4.33324941 C6.66666667,3.59250867 7.25925926,2.99991608 8,2.99991608 C8.74074074,2.99991608 9.33333333,3.59250867 9.33333333,4.33324941 C9.33333333,5.07399015 8.74074074,5.66658274 8,5.66658274 L8,5.66658274 Z" id="svg"></path>
+        </g>
+    </g>
+</svg>
