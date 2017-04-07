@@ -17,7 +17,7 @@ The **Progressive Mobile UI Kits** are Sketch files containing defaults of all t
 
 **Before you begin, you should have…**
 - The latest version of [Sketch](https://www.sketchapp.com/), and a working knowledge.
-- The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed.
+- The fonts [Roboto](https://fonts.google.com/specimen/Roboto), [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) and SFMono-Regular (You need XCode installed and then run: `open /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework/Versions/A/Resources/Fonts/SFMono-Regular.otf`).
 
 **To start using the kits:**
 
