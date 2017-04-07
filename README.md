@@ -19,10 +19,10 @@ The **Progressive Mobile UI Kits** are Sketch files containing defaults of all t
 - The latest version of [Sketch](https://www.sketchapp.com/), and a working knowledge.
 - The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed.
 
-**To start using the kits:** 
+**To start using the kits:**
 
 1. Download whichever one you need... or all of them!
-2. Move the file(s) to your own project folder and rename it. 
+2. Move the file(s) to your own project folder and rename it.
 3. Open the file, and begin customizing the presets and symbols to suit your design.
     1. But _before_ you open the file, make sure the base fonts are installed or Sketch will have an conniption.
 
@@ -62,7 +62,7 @@ As mentioned above, the symbols are named to be inline with the code components.
 
 ### Customizing Components
 
-Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes are purely visual customizations that can be done with little impact to your development timeline. 
+Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes are purely visual customizations that can be done with little impact to your development timeline.
 
 The default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements in the component.
 
@@ -93,10 +93,10 @@ When using and contributing to the UI Kits, please keep these tenets in mind.
 
 Before you start editing files, take a moment to look around and assess the current situation.
 
-1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work. 
+1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work.
     1. If there is, please help review the pull request so it can be merged.
     2. If not, you can begin work.
-2. **Work from the correct branch.** All changes to the UI Kits should be made on their respective branches. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per file to prevent this. Example: `ui-base-changes` and `ui-app-changes`
+2. **Work from the correct branch.** All changes to the UI Kits should be made on the correct branch. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per scenario to prevent this. Use `develop` to stage changes to the master branch. Any experimental work or work that is not yet ready to be released should be done in `sandbox`.
 3. **Double check your work.** Do your changes follow the tenets of the UI Kit? This will be reviewed by your fellow designs when you create your pull request, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
     - Are the symbols appropriately named and filed?
     - Are all layers appropriately named and organized?
