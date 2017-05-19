@@ -1,6 +1,6 @@
-# Progressive Mobile UI Kits
+![mobify-uikit-logo](https://cloud.githubusercontent.com/assets/6453968/26260652/d02ec66a-3c82-11e7-94bd-e841dd48b764.png)
 
-The **Progressive Mobile UI Kits** are Sketch files containing defaults of all the components used in Mobify's products. Using the kits allows designers to quickly and efficiently create mockups for their projects, and helps developers leverage the SDK for their builds, as the kits maintain parity with the code components.
+The **Progressive Mobile UI Kit** is a series of Sketch files containing defaults of all the components and patterns used in Mobify's products, namely our progressive web apps. Using the kit allows designers to quickly and efficiently create mockups and patterns for their projects, and helps developers leverage the SDK for their builds as the kit maintains parity with the code components.
 
 ## Table of Contents
 
@@ -16,10 +16,10 @@ The **Progressive Mobile UI Kits** are Sketch files containing defaults of all t
 ## Getting Started
 
 **Before you begin, you should have…**
-- The latest version of [Sketch](https://www.sketchapp.com/), and a working knowledge.
+- The latest version of [Sketch](https://www.sketchapp.com/updates/), and a working knowledge.
 - The fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) installed.
 
-**To start using the kits:**
+**To start using the kit:**
 
 1. Download whichever one you need... or all of them!
 2. Move the file(s) to your own project folder and rename it.
@@ -39,7 +39,7 @@ Once you open the kit, the first thing you'll want to do is take a look at the *
 
 ### Using Symbols Within the Kit
 
-The symbols included in the UI Kits are **named to be inline with their code counterparts**. This is intended to be a guide for the developers who will inherit the designs; by maintaining this naming scheme, the developers will have a reference of which components you've used and therefore which ones they need to include in the build.
+The symbols included in the UI Kit are **named to be inline with their code counterparts**. This is intended to be a guide for the developers who will inherit the designs; by maintaining this naming scheme, the developers will have a reference of which components you've used and therefore which ones they need to include in the build.
 
 As such, _we do not recommend renaming the of symbols_, either on the Symbol page or in individual instances, as that would remove the reference point. If you want to organize the symbols used in your design, we suggest doing so by wrapping them in groups and renaming those.
 
@@ -56,7 +56,7 @@ As mentioned above, the symbols are named to be inline with the code components.
     - `[product]` - all symbols that are specific to products, or product options.
     - `[templates]` - sub-templates saved as symbols for convenience.
     - `[type]` - basic type elements as symbols to preserve the spacing system.
-- `--modifier` - Modifiers relfect our CSS naming convention for different versions of a component, such as `--horizontal` for a horizontal layout or `--small` for a smaller size.
+- `--modifier` - Modifiers reflect our CSS naming convention for different versions of a component, such as `--horizontal` for a horizontal layout or `--small` for a smaller size.
 - `:state` - Different symbols that reflect its different states. Meant to reflect the states used in CSS, like `:disabled` or `:focus`.
 - `~variant` - variant is a little different than a modifier, as it wouldn't be represented in the CSS. It's more about an option that you would choose over another. Example: `~right` or `~left` aligned options.
 
@@ -81,22 +81,22 @@ If Sketch is unavailable to your development team, we suggest using another tool
 
 ## Contributing to the Kit
 
-The UI Kit is built on the following tenents:
+The UI Kit is built on the following tenets:
 
-- **Fast and Reliable:** The UI Kit should be fast. The files should not become so large and unwieldly that Sketch crashes or does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
+- **Fast and Reliable:** The UI Kit should be fast. The files should not become so large and unwieldy that Sketch crashes or does not sync with our tools. This is why we split the kit into multiple files, allowing them to be smaller and stabler.
 - **Flexible and Future-facing:** The UI Kit should be easy to use for a variety of project types. That's why we include preset steps, making it easier to customize the  components for your project, and why all symbols are as resizable as is currently possible.
 - **Organized:** We've put a lot of effort into carefully categorizing and organizing the Sketch symbols for easy reference and use. What's the point of using a UI Kit to speed up design when you spend half your time searching for the right symbol?
 
-When using and contributing to the UI Kits, please keep these tenets in mind.
+When using and contributing to the UI Kit, please keep these tenets in mind.
 
 ### Making Changes and Pull Requests
 
 Before you start editing files, take a moment to look around and assess the current situation.
 
-1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigiliant not to overwrite someone else's work.
+1. **Check if there's pending pull requests for the file.** Since Sketch files cannot _truly_ be merged, we need to be vigilant not to overwrite someone else's work.
     1. If there is, please help review the pull request so it can be merged.
     2. If not, you can begin work.
-2. **Work from the correct branch.** All changes to the UI Kits should be made on the correct branch. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per scenario to prevent this. Use `develop` to stage changes to the master branch. Any experimental work or work that is not yet ready to be released should be done in `sandbox`.
+2. **Work from the correct branch.** All changes to the UI Kit should be made on the correct branch. Again, we can't have a bunch of separate branches because they won't merge properly, so we try to maintain a single branch per scenario to prevent this. Use `develop` to stage changes to the master branch. Any experimental work or work that is not yet ready to be released should be done in `sandbox`.
 3. **Double check your work.** Do your changes follow the tenets of the UI Kit? This will be reviewed by your fellow designs when you create your pull request, so it doesn't hurt to save yourself and others some time by doing one last check beforehand.
     - Are the symbols appropriately named and filed?
     - Are all layers appropriately named and organized?
