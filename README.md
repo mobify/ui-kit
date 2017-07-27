@@ -1,6 +1,6 @@
 <img width="350" alt="Mobify UI Kit logo" src="https://cloud.githubusercontent.com/assets/6453968/26260652/d02ec66a-3c82-11e7-94bd-e841dd48b764.png" />
 
-The **Progressive Mobile UI Kit** is a series of Sketch files containing defaults of all the components and patterns used in Mobify's products, namely our progressive web apps. Using the kit allows designers to quickly and efficiently create mockups and patterns for their projects, and helps developers leverage the SDK for their builds as the kit maintains parity with the code components.
+The **PWA UI Kit** is a series of Sketch files containing defaults of all the components and patterns used in Mobify's products, namely our progressive web apps. Using the kit allows designers to quickly and efficiently create mockups and patterns for their projects, and helps developers leverage the SDK for their builds as the kit maintains parity with the code components.
 
 ## Table of Contents
 
