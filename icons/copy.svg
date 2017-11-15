@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>[icons]/Icon/share/copy/--dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icons]/Icon/share/copy/--dark" fill-rule="nonzero" fill="#0288A7">
+            <path d="M11.1818182,0 L2.45454545,0 C1.65454545,0 1,0.654545455 1,1.45454545 L1,11.6363636 L2.45454545,11.6363636 L2.45454545,1.45454545 L11.1818182,1.45454545 L11.1818182,0 Z M13.3636364,2.90909091 L5.36363636,2.90909091 C4.56363636,2.90909091 3.90909091,3.56363636 3.90909091,4.36363636 L3.90909091,14.5454545 C3.90909091,15.3454545 4.56363636,16 5.36363636,16 L13.3636364,16 C14.1636364,16 14.8181818,15.3454545 14.8181818,14.5454545 L14.8181818,4.36363636 C14.8181818,3.56363636 14.1636364,2.90909091 13.3636364,2.90909091 Z M13.3636364,14.5454545 L5.36363636,14.5454545 L5.36363636,4.36363636 L13.3636364,4.36363636 L13.3636364,14.5454545 Z" id="copy"></path>
+        </g>
+    </g>
+</svg>

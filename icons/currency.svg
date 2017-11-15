@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>[icons]/Icon/currency/--dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icons]/Icon/currency/--dark" fill-rule="nonzero" fill="#0288A7">
+            <path d="M8,0 C3.584,0 0,3.584 0,8 C0,12.416 3.584,16 8,16 C12.416,16 16,12.416 16,8 C16,3.584 12.416,0 8,0 Z M9.128,12.872 L9.128,14.4 L6.992,14.4 L6.992,12.856 C5.624,12.568 4.464,11.688 4.376,10.136 L5.944,10.136 C6.024,10.976 6.6,11.632 8.064,11.632 C9.632,11.632 9.984,10.848 9.984,10.36 C9.984,9.696 9.632,9.072 7.848,8.648 C5.864,8.168 4.504,7.352 4.504,5.712 C4.504,4.336 5.616,3.44 6.992,3.144 L6.992,1.6 L9.128,1.6 L9.128,3.16 C10.616,3.52 11.36,4.648 11.408,5.872 L9.84,5.872 C9.8,4.984 9.328,4.376 8.064,4.376 C6.864,4.376 6.144,4.92 6.144,5.688 C6.144,6.36 6.664,6.8 8.28,7.216 C9.896,7.632 11.624,8.328 11.624,10.344 C11.616,11.808 10.52,12.608 9.128,12.872 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
