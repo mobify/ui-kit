@@ -31,9 +31,10 @@ The **PWA UI Kit** is a series of Sketch files containing defaults of all the co
 Each kit contains the following pages:
 
 - **Introduction:** Basically what you've found here, but with a little more detail on the spacing system and how to work the Sketch file, including toggling the framing, margin, and padding styles.
-- **Setup:** The Setup pages contain all the type and layer styles used through out the kit; changing them here will populate the changes through all the components, and will give you a great headstart in customizing the components to match your client's brand.
-- **Symbols:** Where all the Symbols live. We've put a lot of effort into arranging this page, for your (and our) benefit! Once you've completed your Setup steps, you'll want to peruse the symbols to make further adjustments and customizations.
-- **Template examples:** These are basically a sampling of _what you can do_ with the UI Kit. These are not prescriptive, hard-and-fast recommendations of how your pages should look; they are common arrangements that reflect our best practices, but you should make the effort to customize your designs to your client—and their customer's—needs.
+- **Setup:** The Setup pages contain all the type and layer styles used through out the kit; changing them here will populate the changes through all the components, and will give you a great head start in customizing the components to match your client's brand.
+- **Components:** Where you will find the building blocks to craft your Progressive Web App and Accelerated Mobile Pages. This page acts as a directory of the components available in the Mobify SDK.
+- **Layouts:** A page of Mobify’s recommended best practice mobile commerce templates. These templates are designed as starting points and examples of a typical shopping experience, but you should make the effort to customize your designs to your client—and their customer's—needs.
+- **Symbols:** Where most component customization will take place. Double clicking on a component layer will take you to this page where you can make changes and apply those to components across the Sketch file.
 
 Once you open the kit, the first thing you'll want to do is take a look at the **Setup** pages.
 
@@ -62,7 +63,7 @@ As mentioned above, the symbols are named to be inline with the code components.
 
 ### Customizing Components
 
-Customizing the components can be as simple as changing colours and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes are purely visual customizations that can be done with little impact to your development timeline.
+Customizing the components can be as simple as changing colors and icons — something that will filter through from changes made to the presets — or as complex as rearranging the component’s internal elements to creating alternate views or variants. These changes are purely visual customizations that can be done with little impact to your development timeline.
 
 The default components included in the SDK should work for most situations, there may be times where you may need to further customize a component to satisfy the needs of the client or their user. In these cases, you may need to include additional elements in the component.
 

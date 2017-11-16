@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>[icons]/Icon/share/--dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[icons]/Icon/share/--dark" fill-rule="nonzero" fill="#0288A7">
+            <path d="M16,6.36742766 L9.84694212,1 L9.84694212,3.56689335 C7.69710149,3.78693359 0.0476630224,5.25241135 0,15 C0,15 1.8545682,8.85927417 9.84694212,8.63389078 L9.84694212,11.7350982 L16,6.36742766 Z" id="share"></path>
+        </g>
+    </g>
+</svg>
